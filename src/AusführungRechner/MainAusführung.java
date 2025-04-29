@@ -1,4 +1,4 @@
-package AusführungRechner;
+package ausführungRechner;
 
 public class MainAusführung {
 
