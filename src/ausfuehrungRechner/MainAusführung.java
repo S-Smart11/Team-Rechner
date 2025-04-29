@@ -1,4 +1,4 @@
-package ausfuehrung_Rechner;
+package ausfuehrungRechner;
 
 public class MainAusführung {
 
