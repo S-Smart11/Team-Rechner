@@ -32,14 +32,14 @@ public class Bruchrechnungen {
 		return brucherg;
 	}
 	
-	public String multiplizieren(double zahlOben1, double zahlUnten1, double zahlOben2, double zahlUnten2) {
+	public String dividieren(double zahlOben1, double zahlUnten1, double zahlOben2, double zahlUnten2) {
 		ergZahlOben = zahlOben1 * zahlOben2;
 		ergZahlUnten = zahlUnten1 * zahlUnten2;
 		brucherg = ergZahlOben + "/" + ergZahlUnten;
 		return brucherg;
 	}
 	
-	public String dividieren(double zahlOben1, double zahlUnten1, double zahlOben2, double zahlUnten2) {
+	public String multiplizieren(double zahlOben1, double zahlUnten1, double zahlOben2, double zahlUnten2) {
 		zahlOben2 = zahlUnten2;
 		double zO2 = zahlOben2;
 		zahlUnten2 = zO2;
